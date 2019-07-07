@@ -1,0 +1,83 @@
+{
+	"invocation": "pharm assist",
+	"intents": [
+		{
+			"name": "PharmAssistIntent",
+			"phrases": [
+				"pharm assist",
+				"say pharm assist"
+			]
+		},
+		{
+			"name": "MedicationsTodayIntent",
+			"phrases": [
+				"what times do i need to take my medication",
+				"what time do i need to take my medicine",
+				"when do i need to take my medicine",
+				"when do i need to take my medication",
+				"what are todays dispensing times",
+				"what time do i need to take my meds"
+			]
+		},
+		{
+			"name": "MedicationNowIntent",
+			"phrases": [
+				"do i have medications to take right now",
+				"is my medication ready",
+				"is my medicine ready",
+				"do i have any medicine to take",
+				"do i have any medicine to take right now"
+			]
+		},
+		{
+			"name": "DispenseMedicationIntent",
+			"phrases": [
+				"dispense my medication",
+				"release my medication",
+				"give me my medicine",
+				"give me my meds",
+				"dispense my meds"
+			]
+		}
+	],
+	"alexa": {
+		"interactionModel": {
+			"languageModel": {
+				"intents": [
+					{
+						"name": "AMAZON.CancelIntent",
+						"samples": []
+					},
+					{
+						"name": "AMAZON.HelpIntent",
+						"samples": []
+					},
+					{
+						"name": "AMAZON.StopIntent",
+						"samples": []
+					}
+				]
+			}
+		}
+	},
+	"dialogflow": {
+		"intents": [
+			{
+				"name": "Default Fallback Intent",
+				"auto": true,
+				"webhookUsed": true,
+				"fallbackIntent": true
+			},
+			{
+				"name": "Default Welcome Intent",
+				"auto": true,
+				"webhookUsed": true,
+				"events": [
+					{
+						"name": "WELCOME"
+					}
+				]
+			}
+		]
+	}
+}

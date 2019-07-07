@@ -1,0 +1,60 @@
+{
+	"interactionModel": {
+		"languageModel": {
+			"invocationName": "pharm assist",
+			"types": [],
+			"intents": [
+				{
+					"name": "PharmAssistIntent",
+					"samples": [
+						"pharm assist",
+						"say pharm assist"
+					]
+				},
+				{
+					"name": "MedicationsTodayIntent",
+					"samples": [
+						"what times do i need to take my medication",
+						"what time do i need to take my medicine",
+						"when do i need to take my medicine",
+						"when do i need to take my medication",
+						"what are todays dispensing times",
+						"what time do i need to take my meds"
+					]
+				},
+				{
+					"name": "MedicationNowIntent",
+					"samples": [
+						"do i have medications to take right now",
+						"is my medication ready",
+						"is my medicine ready",
+						"do i have any medicine to take",
+						"do i have any medicine to take right now"
+					]
+				},
+				{
+					"name": "DispenseMedicationIntent",
+					"samples": [
+						"dispense my medication",
+						"release my medication",
+						"give me my medicine",
+						"give me my meds",
+						"dispense my meds"
+					]
+				},
+				{
+					"name": "AMAZON.CancelIntent",
+					"samples": []
+				},
+				{
+					"name": "AMAZON.HelpIntent",
+					"samples": []
+				},
+				{
+					"name": "AMAZON.StopIntent",
+					"samples": []
+				}
+			]
+		}
+	}
+}

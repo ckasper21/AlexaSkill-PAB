@@ -1,0 +1,5 @@
+{
+	"name": "MedicationsTodayIntent",
+	"auto": true,
+	"webhookUsed": true
+}

@@ -1,0 +1,22 @@
+[
+	{
+		"data": [
+			{
+				"text": "pharm assist",
+				"userDefined": false
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	},
+	{
+		"data": [
+			{
+				"text": "say pharm assist",
+				"userDefined": false
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	}
+]

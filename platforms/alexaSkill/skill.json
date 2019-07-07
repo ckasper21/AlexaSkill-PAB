@@ -1,0 +1,49 @@
+{
+	"manifest": {
+		"publishingInformation": {
+			"locales": {
+				"en-US": {
+					"summary": "Sample Short Description",
+					"examplePhrases": [
+						"Alexa open hello world"
+					],
+					"name": "pharm-assist",
+					"description": "Sample Full Description"
+				}
+			},
+			"isAvailableWorldwide": true,
+			"testingInstructions": "Sample Testing Instructions.",
+			"category": "EDUCATION_AND_REFERENCE",
+			"distributionCountries": []
+		},
+		"apis": {
+			"custom": {
+				"endpoint": {
+					"sslCertificateType": "Wildcard",
+					"uri": "https://webhook.jovo.cloud/25d7f6b2-b5ed-47b6-b6e6-a5a6387d215d"
+				}
+			}
+		},
+		"manifestVersion": "1.0",
+		"permissions": [
+			{
+				"name": "alexa::devices:all:notifications:write"
+			}
+		],
+		"events": {
+			"publications": [
+				{
+					"eventName": "AMAZON.WeatherAlert.Activated"
+				}
+			],
+			"endpoint": {
+				"uri": "https://webhook.jovo.cloud/25d7f6b2-b5ed-47b6-b6e6-a5a6387d215d"
+			},
+			"subscriptions": [
+				{
+					"eventName": "SKILL_PROACTIVE_SUBSCRIPTION_CHANGED"
+				}
+			]
+		}
+	}
+}

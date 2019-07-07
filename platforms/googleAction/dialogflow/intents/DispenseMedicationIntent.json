@@ -1,0 +1,5 @@
+{
+	"name": "DispenseMedicationIntent",
+	"auto": true,
+	"webhookUsed": true
+}
